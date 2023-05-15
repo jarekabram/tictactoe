@@ -1,3 +1,10 @@
+import React from 'react';
+import Board from './components/Square';
+
 export default function Square() {
-  return <button className="square">X</button>;
+  return (
+    <React.Fragment>
+        <Board />
+    </React.Fragment>
+  );
 }
